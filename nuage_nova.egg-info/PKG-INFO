@@ -1,0 +1,30 @@
+Metadata-Version: 1.1
+Name: nuage-nova
+Version: 0.0.1.dev1
+Summary: "Nuage Networks Nova patches"
+Home-page: http://www.nuagenetworks.net
+Author: Alcatel-Lucent USA Inc
+Author-email: info@nuagenetworks.net
+License: UNKNOWN
+Description: ===============================
+        nuage-nova
+        ===============================
+        
+        "Nuage Networks Nova patches for VM Name change integration"
+        
+        * Free software: Apache license
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: OpenStack
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4

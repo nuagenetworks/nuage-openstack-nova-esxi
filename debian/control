@@ -1,0 +1,13 @@
+Source: nuage-ironic-nova
+Section: python
+Maintainer: infra-nuage <infra-nuage@list.alcatel-lucent.com>
+Priority: extra
+Build-Depends: python-setuptools, python-all, debhelper (>= 7)
+Standards-Version: 3.9.3
+Homepage: http://nuagenetworks.net/
+
+Package: nuage-ironic-nova
+Architecture: all
+Depends: nova-common
+Description: Nuage nova extensions for ironic support
+
