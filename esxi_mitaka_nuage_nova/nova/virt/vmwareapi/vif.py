@@ -30,6 +30,7 @@ def decorator(name, function):
        monkey_patch=true
        monkey_patch_modules=nova.virt.vmwareapi.vif:\
                  esxi_mitaka_nuage_nova.nova.virt.vmwareapi.vif.decorator
+       
     """
     global get_neutron_network
 
@@ -38,6 +39,17 @@ def decorator(name, function):
         return _get_neutron_network
     else:
         return function
+
+def _check_ovs_supported_version(session):
+    # The port type 'ovs' is only support by the VC version 5.5 onwards
+    min_version = versionutils.convert_version_to_int(
+        constants.MIN_VC_OVS_VERSION)
+    vc_version = versionutils.convert_version_to_int(
+        vim_util.get_vc_version(session))
+    if vc_version < min_version:
+        LOG.warning(_LW('VMware vCenter version less than %(version)s '
+                        'does not support the \'ovs\' port type.'),
+                    {'version': constants.MIN_VC_OVS_VERSION})
 
 
 def _get_neutron_network(session, cluster, vif):
