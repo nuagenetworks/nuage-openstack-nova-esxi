@@ -15,6 +15,9 @@
 
 from oslo_config import cfg
 from oslo_log import log as logging
+from oslo_utils import versionutils
+from oslo_vmware import vim_util
+
 from nova.network import model
 CONF = cfg.CONF
 
