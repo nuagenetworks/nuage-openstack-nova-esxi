@@ -1,8 +1,8 @@
 CHANGES
 =======
 
-release-4.0.5-liberty
+release-4.0.7-mitaka
 ---------------------
 
-* PROD-3393
+* OPENSTACK-1484
 * Initial commit
