@@ -12,16 +12,21 @@
 #    License for the specific language governing permissions and limitations
 #    under the License.
 
-
 from oslo_config import cfg
 from oslo_log import log as logging
 from oslo_utils import versionutils
 from oslo_vmware import vim_util
 
+from nova import exception
+from nova.i18n import _, _LW
 from nova.network import model
-CONF = cfg.CONF
+from nova.virt.vmwareapi import constants
+from nova.virt.vmwareapi import network_util
+from nova.virt.vmwareapi import vm_util
 
 LOG = logging.getLogger(__name__)
+CONF = cfg.CONF
+
 
 # original monkey patched functions references
 get_neutron_network = None
