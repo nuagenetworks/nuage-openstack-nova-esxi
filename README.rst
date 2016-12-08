@@ -1,9 +1,6 @@
-===============================
-esxi-mitaka-nuage-nova
-===============================
+**nuage_nova_vmwareapi**
 
-"Nuage Networks Nova patches for Openstack Mitaka ESXi integration"
+Nuage Networks Nova monkeypatch for Nuage/ESXI integration, 
+applicable from Mitaka release onwards.
 
-* Free software: Apache license
-
-
+\(c) 2016 NOKIA
