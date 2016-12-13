@@ -1,6 +1,6 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: nuage-ironic-nova
-Source: http://github.mv.usa.alcatel.com/OpenStack/nuage-ironic-nova
+Upstream-Name: nuage-nova-esxi
+Source: http://github.mv.usa.alcatel.com/OpenStack/nuage-nova-esxi
 
 Files: *
 Copyright: 2015 infra-nuage <infra-nuage@list.alcatel-lucent.com>
