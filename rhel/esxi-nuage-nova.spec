@@ -1,7 +1,7 @@
 %{!?__python2:        %global __python2 /usr/bin/python2}
 %{!?python2_sitelib:  %global python2_sitelib /usr/lib/python2.7/site-packages}
 
-Name:          esxi-nuage-nova
+Name:          nuage-nova-esxi
 BuildArch:     noarch
 Epoch:         1
 Version:       4.0.7
@@ -9,15 +9,15 @@ Release:       %{build_number}
 License:       Apache V2.0.
 Group:         default
 Summary:       Nuage Openstack nova patch for ESXi support
-Source0:       esxi-nuage-nova-%{version}.tar.gz
-BuildRoot:     %{_tmppath}/esxi-nuage-nova--%{version}-buildroot
+Source0:       nuage-nova-esxi-%{version}.tar.gz
+BuildRoot:     %{_tmppath}/nuage-nova-esxi--%{version}-buildroot
 Prefix:        /
 
 
 URL:           http://www.nuagenetworks.net/
 Vendor:        Nuage Networks <info@nuagenetworks.com>
 
-Provides:      esxi-nuage-nova
+Provides:      nuage-nova-esxi
 Requires:      openstack-nova-common
 Requires:      /bin/sh
 
@@ -25,7 +25,7 @@ Requires:      /bin/sh
 Nuage Openstack nova patch for ESXi support
 
 %files
-%{python2_sitelib}/esxi_nuage_nova*
+%{python2_sitelib}/nuage_nova_esxi*
 
 
 %prep

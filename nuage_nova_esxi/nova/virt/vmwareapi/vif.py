@@ -37,7 +37,7 @@ def decorator(name, function):
     Example::
        monkey_patch=true
        monkey_patch_modules=nova.virt.vmwareapi.vif:\
-                 esxi_nuage_nova.nova.virt.vmwareapi.vif.decorator
+                 nuage_nova_esxi.nova.virt.vmwareapi.vif.decorator
     """
     global get_neutron_network
 

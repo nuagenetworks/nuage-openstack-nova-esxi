@@ -1,7 +1,7 @@
 CHANGES
 =======
 
-* renamed nuage_nova to esxi_nuage_nova
+* renamed nuage_nova to nuage_nova_esxi
 * adding imports
 * adding imports
 * add _check_ovs_supported_version

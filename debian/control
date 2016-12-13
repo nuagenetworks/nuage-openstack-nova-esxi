@@ -1,4 +1,4 @@
-Source: nuage-ironic-nova
+Source: nuage-nova-esxi
 Section: python
 Maintainer: infra-nuage <infra-nuage@list.alcatel-lucent.com>
 Priority: extra
@@ -6,8 +6,8 @@ Build-Depends: python-setuptools, python-all, debhelper (>= 7)
 Standards-Version: 3.9.3
 Homepage: http://nuagenetworks.net/
 
-Package: nuage-ironic-nova
+Package: nuage-nova-esxi
 Architecture: all
 Depends: nova-common
-Description: Nuage nova extensions for ironic support
+Description: Nuage nova extensions for esxi support
 
