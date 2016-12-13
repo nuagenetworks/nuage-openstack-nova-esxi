@@ -1,4 +1,4 @@
-esxi-mitaka-nuage-nova (4.0.7-0) unstable; urgency=low
+esxi-nuage-nova (4.0.7-0) unstable; urgency=low
 
   changelog stub version, git-dch will generate the changelog from git log
 

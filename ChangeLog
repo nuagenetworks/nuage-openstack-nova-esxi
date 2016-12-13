@@ -1,11 +1,11 @@
 CHANGES
 =======
 
-* renamed nuage_nova to esxi_mitaka_nuage_nova
+* renamed nuage_nova to esxi_nuage_nova
 * adding imports
 * adding imports
 * add _check_ovs_supported_version
 * missing import fixed
-* Patch for Mitaka ESXI
+* Patch for ESXI
 * Nuage Nova Monkey patch for Same VM name accross the board
 * Initial commit
