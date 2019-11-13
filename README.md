@@ -1,4 +1,4 @@
-# nuage_nova_vmwareapi
+# nuage-openstack-nova-esxi
 
 Nuage Networks Nova monkeypatch for Nuage/ESXI integration,
 applicable from Mitaka release onwards.
