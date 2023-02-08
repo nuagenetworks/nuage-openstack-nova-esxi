@@ -1,6 +1,7 @@
-**nuage_nova_vmwareapi**
+The master branch of this project is no longer maintained.
 
-Nuage Networks Nova monkeypatch for Nuage/ESXI integration, 
-applicable from Mitaka release onwards.
-
-\(c) 2016 NOKIA
+The contents of this repository are still available in the Git
+source code management system.  To see the contents of this
+repository before it reached its end of life, please check out the
+previous commit with "git checkout HEAD^1", or check out other
+branches.
